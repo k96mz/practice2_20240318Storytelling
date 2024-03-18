@@ -22,7 +22,8 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "United Nations Secretariat Building",
-      image: "./path/to/image/unhq.jpg",
+      // image: "./path/to/image/unhq.jpg",
+      image: ".image/unhq.jpg",
       description: "UN building",
       location: {
         center: [-73.96806, 40.74897],
