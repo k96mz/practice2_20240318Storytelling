@@ -23,7 +23,7 @@ var config = {
       hidden: false,
       title: "United Nations Secretariat Building",
       // image: "./path/to/image/unhq.jpg",
-      image: ".image/unhq.jpg",
+      image: "./images/unhq.jpg",
       description: "UN building",
       location: {
         center: [-73.96806, 40.74897],
@@ -53,7 +53,7 @@ var config = {
       alignment: "right",
       hidden: false,
       title: "新橋辺りです。",
-      image: "./path/to/image/shimbashi.jpg",
+      image: "./images/shimbashi.jpg",
       description: "飲み屋が多いです。",
       location: {
         center: [139.75953, 35.66599],
@@ -78,7 +78,7 @@ var config = {
       alignment: "left",
       hidden: false,
       title: "中央アフリカ共和国の首都バンギです。",
-      image: "./path/to/image/Bangui.jpg",
+      image: "./images/Bangui.jpg",
       description: "4月のイベントの作業候補地です。",
       location: {
         center: [18.5289, 4.40521],
@@ -97,7 +97,7 @@ var config = {
       alignment: "fully",
       hidden: false,
       title: "イタリアのブリンディシです。",
-      image: "./path/to/image/Brindisi.jpg",
+      image: "./images/Brindisi.jpg",
       description: "UNGSC(国連グローバルサービスセンター)があります。",
       location: {
         center: [17.91092, 40.64877],
