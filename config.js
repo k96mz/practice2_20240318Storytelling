@@ -11,8 +11,9 @@ var config = {
   theme: "dark",
   use3dTerrain: false, //set true for enabling 3D maps.
   auto: false,
-  title: "ストーリーテリングを作ってみました。。",
-  subtitle: "A descriptive and interesting subtitle to draw in the reader",
+  title: "ストーリーテリングを作ってみました。",
+  subtitle:
+    "作業時間2時間くらい。慣れればもっと早く作れます。写真は全て左寄せにしました。",
   byline: "By k96mz",
   footer:
     'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
@@ -50,16 +51,17 @@ var config = {
     },
     {
       id: "second-identifier",
-      alignment: "right",
+      // alignment: "right",
+      alignment: "left",
       hidden: false,
-      title: "新橋辺りです。",
-      image: "./images/shimbashi.jpg",
-      description: "飲み屋が多いです。",
+      title: "広島辺りです。",
+      image: "./images/hiroshima.jpeg",
+      description: "FOSS4G 2025の候補地です。",
       location: {
-        center: [139.75953, 35.66599],
-        zoom: 15.08,
-        pitch: 40.76,
-        bearing: 62.4,
+        center: [132.46971, 34.39528],
+        zoom: 11.47,
+        pitch: 71.5,
+        bearing: 52.0,
         // flyTo additional controls-
         // These options control the flight curve, making it move
         // slowly and zoom out almost completely before starting
@@ -94,7 +96,8 @@ var config = {
     },
     {
       id: "fourth-chapter",
-      alignment: "fully",
+      // alignment: "fully",
+      alignment: "left",
       hidden: false,
       title: "イタリアのブリンディシです。",
       image: "./images/Brindisi.jpg",
